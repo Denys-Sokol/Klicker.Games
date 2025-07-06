@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ff7f50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
